@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Mister Contador</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+		<div class="main">
+			<img src="/img/astronauta.png" class="fredLogin">
+			<div class="container" id="container">
+			  <div class="form sign-in-container">
+				<form onsubmit="logar(); return false;">
+				  <h1>Login Mister Contador</h1>
+				  <span style="margin-right: 100%;">Usuário:</span>
+				  <input type="email" id="" placeholder="E-mail" />
+				  <small id="textEmail"></small>
+				  <span  style="margin-right: 100%;">Senha:</span>
+				  <input type="password" id="" placeholder="Password" />
+				  <small id="textPassword"></small>
+				  <button type="submit">Login</button>
+				  <small id="textForm"></small>
+				  <p>Esqueceu sua senha?</p>
+				</form>
+			  </div>
+			  <div class="overlay-container">
+				<div class="overlay">
+				  <div class="overlay-panel overlay-right">
+					<img src="/img/Mister Icone.png" alt="" class="mordor">
+					<h1>Olá, bem vindo ao Mister Contador!</h1>
+					<p>Explore o futuro da Contabilidade: Deixe seu sucesso alcançar novas galáxias! 🚀</p>
+					<p>v.6.27.2</p>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  <footer class="footer">
+			<p>Criado pelo Time de Tecnologia Mister Contador <i class="fa fa-heart"></i></p>
+		  </footer>
+		  <script src="./script.js"></script>
+</body>
+</html>
