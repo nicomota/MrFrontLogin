@@ -54,14 +54,16 @@ button:active {
 }
 
 form {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   flex-direction: column;
-  padding: 0 50px;
+  padding: 0 30px; /* Reduzido de 50px para 30px */
   text-align: center;
-  width: 50%;
-  height: 100%;
-  padding: 10%;
+  width: 40%; /* Reduzido de 50% para 40% */
+  height: 80%; /* Reduzido de 100% para 80% */
+  padding: 35px;
   border-radius: 20%;
+  margin-left: 5%;
+  margin-top: -4%;
 }
 
 input {
@@ -124,7 +126,7 @@ input {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0 40px;
+  padding: 0 20px;
   text-align: center;
   top: 0;
   height: 100%;
@@ -158,12 +160,12 @@ input {
 }
 
 .fredLogin {
-    width: 350px;
-    margin-top: -31%;
-	position: absolute;
-	top: 100px;
-	left: 40px;	
-	z-index: 100;
+  width: 350px;
+  margin-top: -31%;
+  position: absolute;
+  top: 60px;
+  left: 40px;
+  z-index: 100;
 }
 
 .main{
